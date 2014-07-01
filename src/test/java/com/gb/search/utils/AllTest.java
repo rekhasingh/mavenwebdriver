@@ -2,7 +2,9 @@ package com.gb.search.utils;
 
 
 import com.gb.analytic.dashboard.*;
+
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -14,7 +16,7 @@ public class AllTest {
 
 	@BeforeClass
 	public void setUp() throws Exception {
-		WebDriverProcessor.driver = new FirefoxDriver();
+		WebDriverProcessor.driver = new HtmlUnitDriver();
 		WebDriverProcessor.driver.get("http://gb4gb31.qatest.com/gb/ui/prod/signin.cgi");
 	}
 	@Test
@@ -33,7 +35,7 @@ public class AllTest {
 		//verifycategoryreporttest.verifyclickoncategory();
 	//	verifycategoryreporttest.verifyinstancereporticon();
 		verifycategoryreporttest.verifyopenedinstancereportdata();
-		verifycategoryreporttest.verifyclosingreportinstanceviewer();
+	//	verifycategoryreporttest.verifyclosingreportinstanceviewer();
 	//	savedfiltertest.SaveSearchDefault();
 	}
 	@AfterClass
