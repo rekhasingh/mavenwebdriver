@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="inblrlt-REKHA" name="com.gb.search.utils.AllTest" tests="1" failures="1" timestamp="30 Jun 2014 10:22:50 GMT" time="51.933" errors="0">
+  <testcase name="alltest" time="36.947" classname="com.gb.search.utils.AllTest">
+    <failure type="org.openqa.selenium.InvalidSelectorException" message="The given selector css=#filterlink_2 &amp;gt; span &amp;gt; #filterlink-close_1 is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression css=#filterlink_2 &amp;gt; span &amp;gt; #filterlink-close_1 because of the following error:
+[Exception... &amp;quot;The expression is not a legal expression.&amp;quot;  code: &amp;quot;12&amp;quot; nsresult: &amp;quot;0x805b0033 (SyntaxError)&amp;quot;  location: &amp;quot;file:///C:/Users/REKHA~1.SIN/AppData/Local/Temp/anonymous692956846711346665webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js Line: 6492&amp;quot;]
+Command duration or timeout: 27 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &amp;apos;2.42.2&amp;apos;, revision: &amp;apos;6a6995d31c7c56c340d6f45a76976d43506cd6cc&amp;apos;, time: &amp;apos;2014-06-03 10:52:47&amp;apos;
+System info: host: &amp;apos;inblrlt-REKHA&amp;apos;, ip: &amp;apos;192.168.56.1&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.7.0_05&amp;apos;
+Session ID: 5b388a35-66c6-4bba-be78-c4ec3df42ceb
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=24.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]">
+      <![CDATA[org.openqa.selenium.InvalidSelectorException: The given selector css=#filterlink_2 > span > #filterlink-close_1 is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression css=#filterlink_2 > span > #filterlink-close_1 because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "file:///C:/Users/REKHA~1.SIN/AppData/Local/Temp/anonymous692956846711346665webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js Line: 6492"]
+Command duration or timeout: 27 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'inblrlt-REKHA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_05'
+Session ID: 5b388a35-66c6-4bba-be78-c4ec3df42ceb
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=24.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at $Proxy9.click(Unknown Source)
+	at com.gb.analytic.dashboard.VerifyCategoryReportTest.verifyclosingreportinstanceviewer(VerifyCategoryReportTest.java:113)
+	at com.gb.search.utils.AllTest.alltest(AllTest.java:36)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: The given selector css=#filterlink_2 > span > #filterlink-close_1 is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression css=#filterlink_2 > span > #filterlink-close_1 because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "file:///C:/Users/REKHA~1.SIN/AppData/Local/Temp/anonymous692956846711346665webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js Line: 6492"]
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'inblrlt-REKHA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_05'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.annotateInvalidSelectorError_(file:///C:/Users/REKHA~1.SIN/AppData/Local/Temp/anonymous692956846711346665webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:9444)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/REKHA~1.SIN/AppData/Local/Temp/anonymous692956846711346665webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:9475)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/REKHA~1.SIN/AppData/Local/Temp/anonymous692956846711346665webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:9479)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/REKHA~1.SIN/AppData/Local/Temp/anonymous692956846711346665webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:11455)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/REKHA~1.SIN/AppData/Local/Temp/anonymous692956846711346665webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:11460)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/REKHA~1.SIN/AppData/Local/Temp/anonymous692956846711346665webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:11402)
+... Removed 30 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

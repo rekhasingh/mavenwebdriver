@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 52.761 sec <<< FAILURE!
+alltest(com.gb.search.utils.AllTest)  Time elapsed: 36.968 sec  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: The given selector css=#filterlink_2 > span > #filterlink-close_1 is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression css=#filterlink_2 > span > #filterlink-close_1 because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "file:///C:/Users/REKHA~1.SIN/AppData/Local/Temp/anonymous692956846711346665webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js Line: 6492"]
+Command duration or timeout: 27 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'inblrlt-REKHA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_05'
+Session ID: 5b388a35-66c6-4bba-be78-c4ec3df42ceb
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=24.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at $Proxy9.click(Unknown Source)
+	at com.gb.analytic.dashboard.VerifyCategoryReportTest.verifyclosingreportinstanceviewer(VerifyCategoryReportTest.java:113)
+	at com.gb.search.utils.AllTest.alltest(AllTest.java:36)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: The given selector css=#filterlink_2 > span > #filterlink-close_1 is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression css=#filterlink_2 > span > #filterlink-close_1 because of the following error:
+[Exception... "The expression is not a legal expression."  code: "12" nsresult: "0x805b0033 (SyntaxError)"  location: "file:///C:/Users/REKHA~1.SIN/AppData/Local/Temp/anonymous692956846711346665webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js Line: 6492"]
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'inblrlt-REKHA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_05'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.annotateInvalidSelectorError_(file:///C:/Users/REKHA~1.SIN/AppData/Local/Temp/anonymous692956846711346665webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:9444)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/REKHA~1.SIN/AppData/Local/Temp/anonymous692956846711346665webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:9475)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/REKHA~1.SIN/AppData/Local/Temp/anonymous692956846711346665webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:9479)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/REKHA~1.SIN/AppData/Local/Temp/anonymous692956846711346665webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:11455)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/REKHA~1.SIN/AppData/Local/Temp/anonymous692956846711346665webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:11460)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/REKHA~1.SIN/AppData/Local/Temp/anonymous692956846711346665webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:11402)
+
