@@ -1,31 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <plugin>
-  <groupId>com.glassbeam.app</groupId>
+    <groupId>com.glassbeam.app</groupId>
   <artifactId>FWK</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  	<executions>
-		<execution>
-			<id>xvfb</id>
-			<phase>pre-integration-test</phase>
-			<goals>
-				<goal>xvfb</goal>
-			</goals>
-		</execution>
-
-		<execution>
-			<id>selenium</id>
-			<phase>pre-integration-test</phase>
-			<goals>
-				<goal>start-server</goal>
-			</goals>
-			<configuration>
-				<background>true</background>
-			</configuration>
-		</execution>
-	</executions>
-	</plugin>
-  <dependencies>
+    <dependencies>
      <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
@@ -38,7 +16,5 @@
   <version>6.1.1</version>
   <scope>test</scope>
 </dependency>
-
-
 </dependencies>
 </project>
