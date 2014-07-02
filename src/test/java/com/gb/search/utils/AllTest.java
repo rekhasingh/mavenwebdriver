@@ -16,7 +16,7 @@ public class AllTest {
 
 	@BeforeClass
 	public void setUp() throws Exception {
-		WebDriverProcessor.driver = new HtmlUnitDriver();
+		WebDriverProcessor.driver = new Firefoxriver();
 		WebDriverProcessor.driver.get("http://gb4gb31.qatest.com/gb/ui/prod/signin.cgi");
 	}
 	@Test
